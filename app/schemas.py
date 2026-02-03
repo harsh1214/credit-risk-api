@@ -1,0 +1,46 @@
+from pydantic import BaseModel
+
+class LoanFeatures(BaseModel):
+    loan_amnt: float
+    term: float
+    int_rate: float
+    installment: float
+    grade: float
+    emp_length: float
+    annual_inc: float
+    dti: float
+    delinq_2yrs: float
+    inq_last_6mths: float
+    mths_since_last_delinq: float
+    mths_since_last_record: float
+    open_acc: float
+    pub_rec: float
+    revol_util: float
+    total_acc: float
+    collections_12_mths_ex_med: float
+    application_type: float
+    acc_now_delinq: float
+    bc_util: float
+    mort_acc: float
+    num_actv_bc_tl: float
+    num_actv_rev_tl: float
+    num_op_rev_tl: float
+    num_rev_tl_bal_gt_0: float
+    num_tl_op_past_12m: float
+    pct_tl_nvr_dlq: float
+    percent_bc_gt_75: float
+    pub_rec_bankruptcies: float
+    tax_liens: float
+    fico_mean: float
+    credit_history_years: float
+    revol_bal_log: float
+    total_rev_hi_lim_log: float
+    avg_cur_bal_log: float
+    revol_util_missing: float
+    bc_util_missing: float
+    percent_bc_gt_75_missing: float
+    home_ownership_OTHER: float
+    home_ownership_OWN: float
+    home_ownership_RENT: float
+    verification_status_Source_Verified: float
+    verification_status_Verified: float
