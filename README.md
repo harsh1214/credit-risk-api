@@ -5,6 +5,38 @@ The model is trained with strict leakage control, evaluated using ROC-AUC, and d
 
 ---
 
+## 🚀 Live Demo (Try It Yourself)
+
+The model is live and publicly accessible.
+You can test it without running any code.
+
+Predict (POST)
+- https://credit-risk-api-1vg9.onrender.com/predict
+
+View Reusable Sample Inputs (GET)
+- https://credit-risk-api-1vg9.onrender.com/samples
+
+One-Click Sample Prediction – High Risk Case (POST)
+- https://credit-risk-api-1vg9.onrender.com/predict/high_risk
+
+Swagger UI (Interactive API Docs)
+- https://credit-risk-api-1vg9.onrender.com/docs
+
+⚠️ Note: Hosted on Render free tier. The service may take ~30 seconds to wake up on first request.
+
+---
+
+## 🔍 Problem Statement
+
+Given loan application and credit bureau information **available at loan issuance**, predict the **probability that a loan will default**.
+
+This problem is critical for:
+- Loan approval decisions  
+- Risk-based pricing  
+- Portfolio risk management  
+
+---
+
 ## 🧠 Solution Overview
 
 **Approach**
