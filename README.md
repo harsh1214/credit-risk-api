@@ -1,4 +1,4 @@
-# 📊 Credit Risk / Loan Default Prediction
+## 📊 Credit Risk / Loan Default Prediction
 
 A production-style **credit risk prediction system** that estimates the **probability of loan default** using historical LendingClub data.  
 The model is trained with strict leakage control, evaluated using ROC-AUC, and deployed as a **FastAPI service** for real-time inference.
@@ -156,9 +156,3 @@ Response example:
 - Risk banding (Low / Medium / High)
 - Threshold optimization
 - Simple frontend UI
-
----
-
-## 👤 Author
-
-**Harsh Yadav**
